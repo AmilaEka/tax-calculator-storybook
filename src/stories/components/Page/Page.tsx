@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Header } from './Header';
+import { Header } from '../Header/Header';
 import './page.css';
 
-type User = {
+export type User = {
   name: string;
 };
 
